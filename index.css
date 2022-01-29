@@ -1,9 +1,20 @@
 /* The first page styling  */
 /* Navigation bar */
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+.big-background{
+    background-color: #252B42;
+    /* z-index: 1; */
+    height: 120vh;
+}
+#overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    z-index: 1;
 }
 .background{
     background-image: url('./Assets/background.png');
@@ -44,4 +55,18 @@ button{
     border-radius: 3px;
     text-align: center;
     /* font-size: larger; */
+}
+/* p{
+    position:absolute;
+    top: 50%;
+    right: 50%;
+} */
+.middle-text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    display: flex; 
+    flex-direction: column;
+    transform: translate(-50%,-50%);
+    
 }
