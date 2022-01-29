@@ -70,3 +70,35 @@ button{
     transform: translate(-50%,-50%);
     
 }
+/* The texts in the first page */
+.big{
+    font-size: 4em;
+    padding-bottom: 10px;
+}
+.small-text{
+    font-stretch: 100%;
+    color: whitesmoke;
+    /* padding: 10px; */
+}
+.two-buttons{
+    align-items: center;
+}
+.second{
+    align-self: center;
+    padding-bottom: 10px;
+}
+/* Styling of the buttons in the banner  */
+.get-quote{
+    border-radius: 1.5em;
+    padding: 10px 15px;
+}
+.learn-more{
+    border-radius: 1.5em;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: white solid 1.5px;
+}
+.two-buttons{
+   align-self: center;
+
+}
