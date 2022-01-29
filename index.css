@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 .big-background{
-    background-color: #fbfcff;
+    background-color: rgb(251, 250, 250);
     z-index: 1;
     height: 130vh;
 }
@@ -168,7 +168,7 @@ button{
 /* The industry page styling */
 
 .big-div{
-    background-color: #fbfcff;
+    background-color: rgb(251, 250, 250);
 }
 .title1{
     display: flex;
@@ -220,6 +220,17 @@ button{
 
 
 .non-check{
-   color: white;
+   color: #a0a1a7;
 }
 /* Styling the company icons */
+.company-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+
+}
+.company-icons img{
+    width: 5%;
+}
