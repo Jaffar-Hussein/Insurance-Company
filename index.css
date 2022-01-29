@@ -6,9 +6,10 @@
     box-sizing: border-box;
 }
 .background{
-    background-image: url(/Assets/background.png);
-    height: 900px;
+    background-image: url('./Assets/background.png');
+    background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
 }
 .brand-name{
     font-size: x-large;
@@ -18,6 +19,7 @@
     justify-content: space-around;
     align-items: center;
     color: white;
+    padding-top: 15px;
 }
 
 li{
@@ -33,11 +35,13 @@ nav > ul > li > a {
 .middle-nav-list,.end-nav-list{
     list-style-type:none;
 }
+/* Button styling */
 button{
     color: white;
     background-color: #23A6F0;
     border: none;
     padding: 10px;
     border-radius: 3px;
+    text-align: center;
     /* font-size: larger; */
 }
