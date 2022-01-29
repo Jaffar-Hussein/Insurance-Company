@@ -7,14 +7,14 @@
     box-sizing: border-box;
 }
 .big-background{
-    background-color: #252B42;
-    /* z-index: 1; */
-    height: 120vh;
+    background-color: #fbfcff;
+    z-index: 1;
+    height: 140vh;
 }
 #overlay{
     background-color: rgba(0, 0, 0, 0.5);
     height: 100vh;
-    z-index: 1;
+    z-index: 2;
 }
 .background{
     background-image: url('./Assets/background.png');
@@ -101,4 +101,67 @@ button{
 .two-buttons{
    align-self: center;
 
+}
+/* Three small boxes styling  */
+.three-boxes{
+    z-index: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:absolute;
+    bottom: -6%;
+    right: 10%;
+
+    align-self: center;
+    
+}
+.first-box{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px grey;
+    
+}
+.second-box{
+    width: 20%;
+    box-shadow: 2px 2px 5px grey;
+    margin: 0px 15px;
+
+}
+.third-box{
+    width: 20%;
+    box-shadow: 2px 2px 5px grey;
+
+}
+#icon{
+    width: 15%;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding:10px;
+    background-color: white;
+   
+}
+/* This is the styling for the second mini page */
+.second-mini-page{
+    
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+    
+
+.second-mini-page div{
+    padding: 20px;
+    width: 23%;
+}
+#mini-images{
+    width: 15%;
+}
+.second-mini-page > div > p{
+    overflow-wrap: break-word;
 }
