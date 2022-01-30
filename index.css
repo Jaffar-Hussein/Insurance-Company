@@ -264,8 +264,8 @@ button{
 .title1 p{
     margin-bottom: 50px;
 }
-.long-cards div{
-    
+.long{
+    border: 1px #23A6F0 solid;
     display: flex;
     flex-direction: column;
 
@@ -286,9 +286,7 @@ button{
     justify-content: center;
     align-items: center;
 }
-.long1,.long2,.long3{
-    border: 1px #23A6F0 solid;
-}
+
 .data2,.data1{
     text-align: center;
     padding: 20px;
@@ -302,4 +300,27 @@ button{
 .data4 button{
     width: 80%;
     align-self: center;
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 10vh;
+}
+.footer table{
+    border-collapse: separate;
+    border-spacing: 5px ;
+}
+td,th{
+    width: 25vh;
+    height: 4vh;
+    vertical-align: middle;
+    text-align: left;
+}
+td{
+    color: rgb(121, 118, 118);
 }
