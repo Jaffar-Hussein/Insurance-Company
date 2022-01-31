@@ -7,6 +7,7 @@
     box-sizing: border-box;
    
 }
+
 .big-background{
     background-color: rgb(251, 250, 250);
     z-index: 1;
@@ -411,5 +412,29 @@ td{
     height: 40vh;
     background-color: rgb(251, 250, 250);
     z-index: 1;
+}
+    /* Media Query for the footer */
 
+
+
+@media only screen and (max-width:1020px) {
+  /* .table tbody{
+      display: flex;
+  }
+ .table th{
+     display: flex;
+ } */
+ /* .table th{
+     display: block;
+ }
+ .table tr {
+display: flex; */
+ /* } */
+ /* .one{
+     display: block;
+     
+ }
+ #two{
+     display: flex;
+ } */
 }
