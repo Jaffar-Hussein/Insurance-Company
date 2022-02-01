@@ -307,6 +307,10 @@ button{
 }
 
 /* Footer */
+.col-title{
+    padding: 10px 0px;
+    font-weight: 700;
+}
 .wholefooter{
     display: flex;
     flex-direction: row;
@@ -322,8 +326,12 @@ button{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
         
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
     }
 }
 /*  */
